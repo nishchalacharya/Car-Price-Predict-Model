@@ -13,7 +13,7 @@ The dataset used (`car.csv`) contains information about various used cars, inclu
 - Kilometers driven
 - Fuel type
 - Transmission type
-- Selling price (target variable)
+- Selling price (target variable) and so on..look to the notebook
 
 ---
 
@@ -24,6 +24,8 @@ The dataset used (`car.csv`) contains information about various used cars, inclu
 - Perform **Exploratory Data Analysis (EDA)** to uncover insights and visualize key trends.
 - Build and fine-tune **multiple machine learning models** to accurately predict car prices.
 - Evaluate models using proper metrics and compare them with a baseline (Dummy Regressor).
+- A FastAPI backend for real-time predictions
+- A REST API endpoint to serve predictions
 
 ---
 
@@ -94,11 +96,25 @@ Its poor performance (R² ≈ 0) confirmed that the ML models learned meaningful
 - XGBoost outperformed Random Forest slightly after tuning
 - Feature importance and visual EDA were essential for insights and model tuning
 - LLMs were effective in accelerating decisions and explanations during the ML pipeline
+- A FastAPI backend for real-time predictions
+- A REST API endpoint to serve predictions
 
 ---
 
 
+## 🚀 How to Run Locally
 
+1. **Clone the repo**
+```bash
+git clone https://github.com/<your-username>/car-price-predictor.git
+cd car-price-predicto
 ---
 
-
+2. ** Install requirements **
+```bash
+pip install -r requirements.txt
+---
+3. **Run FAST API server**
+```bash
+uvicorn main:app --reload
+---
