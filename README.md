@@ -111,10 +111,12 @@ cd car-price-predicto
 ---
 
 2. ** Install requirements **
-```bash
+
 pip install -r requirements.txt
----
+
 3. **Run FAST API server**
-```bash
+
 uvicorn main:app --reload
+
 ---
+
