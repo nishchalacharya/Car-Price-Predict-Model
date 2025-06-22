@@ -106,8 +106,8 @@ Its poor performance (R² ≈ 0) confirmed that the ML models learned meaningful
 
 1. **Clone the repo**
 ```bash
-git clone https://github.com/<your-username>/car-price-predictor.git
-cd car-price-predicto
+git clone https://github.com/nishchalacharya/Car-Price-Predict-Model.git
+
 ---
 
 2. ** Install requirements **
